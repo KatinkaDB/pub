@@ -481,6 +481,13 @@ h6,
 #header1-1 .mbr-section-lead {
   text-align: center;
 }
+#header1-1 .mbr-section-title {
+  color: #f97352;
+  text-align: center;
+}
+#header1-1 .mbr-section-lead B {
+  color: #efefef;
+}
 #features2-1 .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
 }
