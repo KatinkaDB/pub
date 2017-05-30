@@ -1,8 +1,8 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "Form",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 3,
+    "uniqCompNum": 34,
     "versionPublish": "3.10.3",
     "name": "My Site",
     "theme": {
@@ -18,14 +18,14 @@
         "titleFont": "Slabo 27px",
         "subtitleFont": "Slabo 27px",
         "textFont": "Slabo 27px",
-        "isRoundedButtons": true,
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       }
     }
   },
   "pages": {
-    "index.html": {
+    "Home": {
       "settings": {
         "main": true,
         "title": "",
@@ -41,14 +41,26 @@
           ],
           "_name": "msg-box5",
           "_styles": {
-            "H3": {
-              "color": "#ffeeee"
-            },
             "P": {
-              "color": "#c0a375"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "color": "#ffffff"
+            },
+            "SPAN": {
+              "text-align": "right"
+            },
+            ".btn": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           },
-          "_anchor": "msg-box5-2",
+          "_anchor": "msg-box5-c",
           "_params": {
             "imageSize": 50,
             "paddingTop": 0,
@@ -56,7 +68,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -74,7 +86,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dsc-0044-2000x1329-13-2000x1329-83-copy-1400x931-52.jpg",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-10-28-at-04-1400x1048-11.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -92,108 +104,226 @@
               "size": 0
             }
           },
-          "title": "Katinka De Boe",
-          "text": "visual arts - TEXTILE",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Work</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "color": "#ffeeee"
-            },
-            ".mbr-section-lead": {
-              "color": "#c0a375"
-            }
-          },
-          "_anchor": "header1-5",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0330watermerk-2000x1329-21.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "Katinka De Boe",
-          "text": "visual arts - TEXTILE",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image1",
-          "_anchor": "image1-4",
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-06-14-at-23-1400x726-24-copy-1400x726-13.jpg",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "_params": {
-            "showText": false
-          },
-          "text": ""
+          "title": "<span style=\"font-weight: normal;\">K A T I N K A &nbsp;D E &nbsp; B O E</span>",
+          "text": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;visual arts - T E X T I L E&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ABOUT</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"work.html\" data-toolbar=\"-mbrBtnMove\">WORK</a>"
         },
         {
           "_name": "footer1",
           "_anchor": "footer1-2",
           "_params": {
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Mobirise."
+          "text": "Copyright (c) 2017 <i>Katinka De Boe. All rights </i><b><i>reserved</i></b><i>.</i>"
+        }
+      ]
+    },
+    "About": {
+      "settings": {},
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-3",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 <i>Katinka De Boe. All rights </i><b><i>reserved</i></b><i>.</i>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-t",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/257244-2059452561130-4603513-o-1400x1825-83.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Katinka  De  Boe",
+          "text": "Student Beeldende kunst TEXTIEL aan het Sint Lucas te Gent",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        }
+      ]
+    },
+    "Work": {
+      "settings": {},
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-8",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 <i>Katinka De Boe. All rights </i><b><i>reserved</i></b><i>.</i>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-n",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-06-14-at-23-1400x726-32.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Work and progress",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"focus.html\" data-toolbar=\"-mbrBtnMove\">Focus</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Form</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"error.html\" data-toolbar=\"-mbrBtnMove\">Error</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Reprocess and Repossess</a>    "
+        }
+      ]
+    },
+    "Focus": {
+      "settings": {},
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-o",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 <i>Katinka De Boe. All rights </i><b><i>reserved</i></b><i>.</i>"
         },
         {
           "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery3",
+          "_name": "gallery2",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": 4,
+            "paddingBottom": 4,
             "images": [
               {
-                "tags": "Awesome",
+                "tags": "Creative",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1475013196345-2000x1516-47-2000x1516-55-copy-2000x1515-17-2000x1515-87.jpg",
-                "image": "@PROJECT_PATH@/assets/images/1475013196345-2000x1516-47-2000x1516-55-copy-2000x1515-17.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0338-2000x1329-13-800x531-37.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0338-2000x1329-13.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0337-copy-2000x1329-98-800x531-80.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0337-copy-2000x1329-98.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -202,8 +332,198 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20160310-105412-2000x1499-94-2000x1499-71-copy-2000x1500-5-800x600-49.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-20160310-105412-2000x1499-94-2000x1499-71-copy-2000x1500-5.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0330-copy-2000x1329-98-800x531-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0330-copy-2000x1329-98.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-5-lijnen-zwart-blad-2000x2828-68-800x1131-33.jpg",
+                "image": "@PROJECT_PATH@/assets/images/scan-5-lijnen-zwart-blad-2000x2828-68.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20160310-102155-2000x1500-33-800x600-12.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20160310-102155-2000x1500-33.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20160310-105412-2000x1499-96-800x599-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20160310-105412-2000x1499-96.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20160310-104506-2000x1500-82-800x600-15.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20160310-104506-2000x1500-82.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20160603-114624-2000x2666-47-800x1066-88.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20160603-114624-2000x2666-47.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20160310-102204-2000x1500-46-800x600-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20160310-102204-2000x1500-46.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "5",
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": false
+          },
+          "_anchor": "gallery2-v",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "Form": {
+      "settings": {},
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-p",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 <i>Katinka De Boe. All rights </i><b><i>reserved</i></b><i>.</i>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0044-2000x1329-84-800x531-74.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0044-2000x1329-84.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20160602-092427-2000x1967-94-800x786-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20160602-092427-2000x1967-94.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "5",
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": false
+          },
+          "_anchor": "gallery2-w",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "Error": {
+      "settings": {},
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-q",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 <i>Katinka De Boe. All rights </i><b><i>reserved</i></b><i>.</i>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-5-2000x2829-11-800x1131-42.png",
+                "image": "@PROJECT_PATH@/assets/images/scan-5-2000x2829-11.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-4-2000x2829-46-800x1131-69.png",
+                "image": "@PROJECT_PATH@/assets/images/scan-4-2000x2829-46.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -212,8 +532,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20160602-092427-2000x1967-73-2000x1967-54-copy-2000x1967-70-800x786-68.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-20160602-092427-2000x1967-73-2000x1967-54-copy-2000x1967-70.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-9-2000x2829-16-800x1131-24.png",
+                "image": "@PROJECT_PATH@/assets/images/scan-9-2000x2829-16.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -222,8 +542,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0338-2000x1329-3-2000x1329-73-copy-2000x1330-41-2000x1330-90.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0338-2000x1329-3-2000x1329-73-copy-2000x1330-41.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-8-2000x2829-88-800x1131-99.png",
+                "image": "@PROJECT_PATH@/assets/images/scan-8-2000x2829-88.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -232,8 +552,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0044-2000x1329-13-2000x1329-83-copy-2000x1330-41-2000x1330-19.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0044-2000x1329-13-2000x1329-83-copy-2000x1330-41.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-13-2000x2829-25-800x1131-87.png",
+                "image": "@PROJECT_PATH@/assets/images/scan-13-2000x2829-25.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-11-1400x1980-90-copy-2000x2828-98-800x1131-94.png",
+                "image": "@PROJECT_PATH@/assets/images/scan-11-1400x1980-90-copy-2000x2828-98.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -242,18 +572,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scan-2000x2822-12-2000x2822-17-copy-2000x2822-16-800x1128-18.jpg",
-                "image": "@PROJECT_PATH@/assets/images/scan-2000x2822-12-2000x2822-17-copy-2000x2822-16.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scan-13-2000x2829-26-2000x2829-32.png",
-                "image": "@PROJECT_PATH@/assets/images/scan-13-2000x2829-26.png",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-6-fluxus-blue-black-2000x2828-47-800x1131-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/scan-6-fluxus-blue-black-2000x2828-47.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -262,96 +582,88 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20161007-172224-2000x2500-30-2000x2500-85-copy-2000x2500-98-2000x2500-17.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-20161007-172224-2000x2500-30-2000x2500-85-copy-2000x2500-98.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/scan-7-fabric-floe-2000x2828-91-800x1131-97.jpg",
+                "image": "@PROJECT_PATH@/assets/images/scan-7-fabric-floe-2000x2828-91.jpg",
                 "caption": "Type caption here",
-                "active": false
-              },
+                "active": true
+              }
+            ],
+            "spacing": "5",
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-x",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "Reprocess and Repossess": {
+      "settings": {},
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-r",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 <i>Katinka De Boe. All rights </i><b><i>reserved</i></b><i>.</i>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": "4",
+            "images": [
               {
                 "tags": "Beautiful",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scan-5-2000x2829-4-2000x2829-1.png",
-                "image": "@PROJECT_PATH@/assets/images/scan-5-2000x2829-4.png",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0477-2000x1329-8-800x531-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0477-2000x1329-8.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
-                "tags": "Beautiful",
+                "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scan-9-2000x2829-82-2000x2829-88.png",
-                "image": "@PROJECT_PATH@/assets/images/scan-9-2000x2829-82.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scan-6-fluxus-blue-black-2000x2828-72-2000x2828-28.jpg",
-                "image": "@PROJECT_PATH@/assets/images/scan-6-fluxus-blue-black-2000x2828-72.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20160603-114624-2000x2666-15-2000x2666-52.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-20160603-114624-2000x2666-15.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0476-2000x3008-26-800x1203-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0476-2000x3008-26.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
             ],
-            "spacing": "2",
+            "spacing": "6",
             "showText": false,
             "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
+            "bgColor": "fff",
+            "filterBgColor": false,
             "fullWidth": false,
-            "showBullets": false
+            "showBullets": true
           },
-          "_anchor": "gallery3-2",
-          "articleLayout": false
-        },
-        {
-          "_inherit": "social-buttons1",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffeeee"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons3",
-          "_anchor": "social-buttons3-3",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "facebook": true,
-            "twitter": true,
-            "google": true,
-            "vkontakte": false,
-            "odnoklassniki": false
-          },
-          "text": "SHARE THIS PAGE!"
+          "_anchor": "gallery2-u",
+          "articleLayout": false,
+          "allItem": "All"
         }
       ]
     }
