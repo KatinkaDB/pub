@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Form",
+    "currentPage": "Home",
     "versionFirst": "3.8.3",
     "uniqCompNum": 34,
     "versionPublish": "3.10.3",
@@ -22,7 +22,9 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       }
-    }
+    },
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "Home": {
