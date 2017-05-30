@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "About",
+    "currentPage": "Work",
     "versionFirst": "3.8.3",
     "uniqCompNum": 34,
     "versionPublish": "3.10.3",
@@ -108,7 +108,7 @@
           },
           "title": "<span style=\"font-weight: normal;\">K A T I N K A &nbsp;D E &nbsp; B O E</span>",
           "text": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;visual arts - T E X T I L E&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ABOUT</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"work.html\" data-toolbar=\"-mbrBtnMove\">WORK</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"About\" data-toolbar=\"-mbrBtnMove\">ABOUT</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"work.html\" data-toolbar=\"-mbrBtnMove\">WORK</a>"
         },
         {
           "_name": "footer1",
@@ -275,7 +275,7 @@
           },
           "title": "Work and progress",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"focus.html\" data-toolbar=\"-mbrBtnMove\">Focus</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Form</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"error.html\" data-toolbar=\"-mbrBtnMove\">Error</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Reprocess and Repossess</a>    "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Focus\" data-toolbar=\"-mbrBtnMove\">Focus</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Form</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Error\" data-toolbar=\"-mbrBtnMove\">Error</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Reprocess and Repossess</a>    "
         }
       ]
     },
