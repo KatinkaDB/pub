@@ -34,7 +34,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -130,7 +131,9 @@
       ]
     },
     "About": {
-      "settings": {},
+      "settings": {
+        "order": 2
+      },
       "components": [
         {
           "_name": "footer1",
@@ -205,7 +208,9 @@
       ]
     },
     "Focus": {
-      "settings": {},
+      "settings": {
+        "order": 4
+      },
       "components": [
         {
           "_name": "footer1",
@@ -340,7 +345,9 @@
       ]
     },
     "Work": {
-      "settings": {},
+      "settings": {
+        "order": 3
+      },
       "components": [
         {
           "_name": "footer1",
@@ -415,7 +422,9 @@
       ]
     },
     "Form": {
-      "settings": {},
+      "settings": {
+        "order": 5
+      },
       "components": [
         {
           "_name": "footer1",
@@ -480,7 +489,9 @@
       ]
     },
     "Error": {
-      "settings": {},
+      "settings": {
+        "order": 6
+      },
       "components": [
         {
           "_name": "footer1",
@@ -605,7 +616,9 @@
       ]
     },
     "Reprocess and Repossess": {
-      "settings": {},
+      "settings": {
+        "order": 7
+      },
       "components": [
         {
           "_name": "footer1",
